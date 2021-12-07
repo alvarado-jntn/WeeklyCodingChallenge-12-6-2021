@@ -5,10 +5,13 @@
 
 -Arithmetic Mean: The division of the sum of the numbers by the quantity of numbers.
 avg of [A, B, C] ➞ (A + B + C) / 3
+
 -Quadratic Mean: Also called Root Mean Square, is the square root of the arithmetic mean of the squared numbers.
 qAvg of [A, B, C] ➞ ²√ ( (A² + B² + C²) / 3 )
+
 -Harmonic Mean: is the reciprocal of the arithmetic mean of the numbers reciprocals.
 hAvg of [A, B, C] ➞ ( (A⁻¹ + B⁻¹ + C⁻¹) / 3 )⁻¹
+
 -Geometric Mean: is the n-th root of the product of the numbers, where n is the quantity of numbers.
 gAvg of [A, B, C] ➞ ³√ (A B C)
 
@@ -42,11 +45,17 @@ The function must return the display of a tuner for each string, in the same ord
 (You can find the frequencies of the strings on the Wikipedia page)
 
 -The guitar strings are played 1st to 6th, High E to Low E.
+
 -If the guitar string matches, return "OK" for that guitar string.
+
 -If it's too low, return ">•" for 1 or 2 percent off (the arrow means, tune up).
+
 -Return ">>•" if it's way off. For more than 3 percent.
+
 -If it's too high, return "•<" for 1 or 2 percent, and "•<<" for more, (tune down).
+
 -Check the rounded percentages.
+
 -If 0 is given, the guitar string isn't played, return " - ".
 
 Examples:
