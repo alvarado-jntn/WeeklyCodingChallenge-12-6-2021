@@ -11,17 +11,18 @@ public class LCMDriver {
         int[] list2 = {46, 54, 466, 544};
         int[] list3 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int[] list4 = {13, 6, 17, 18, 19, 20, 37};
+        int[] list5 = {8,18,68};
 
-        leastCommonMultiple.lcmOfArray(list1);
-        System.out.println("=======================================");
+//        leastCommonMultiple.lcmOfArray(list1);
+//        System.out.println("=======================================");
+//
+//        leastCommonMultiple.lcmOfArray(list2);
+//        System.out.println("=======================================");
+//
+//        leastCommonMultiple.lcmOfArray(list3);
+//        System.out.println("=======================================");
 
-        leastCommonMultiple.lcmOfArray(list2);
-        System.out.println("=======================================");
-
-        leastCommonMultiple.lcmOfArray(list3);
-        System.out.println("=======================================");
-
-        leastCommonMultiple.lcmOfArray(list4);
+        leastCommonMultiple.lcmOfArray(list5);
         System.out.println("=======================================");
 
 
